@@ -671,6 +671,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f387612b360d55547988c486e1db57e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fireTransform: {fileID: 4959168996130380}
+  muzzleFalshEffect: {fileID: 198000012125955258}
+  shellEjectEffect: {fileID: 198000010282563091}
+  gunData: {fileID: 11400000, guid: fae8ff07150af8148b4acb6785cf136c, type: 2}
+  ammoRemain: 100
+  magAmmo: 0
 --- !u!1 &1871168162219632
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,6 +814,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011175361746, guid: 8e60b325a019543cbb2e3920522a2e6b, type: 3}
   m_PrefabInstance: {fileID: 453235773}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &198000010282563091 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198000010131513902, guid: 8e60b325a019543cbb2e3920522a2e6b, type: 3}
+  m_PrefabInstance: {fileID: 453235773}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &828294154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -872,5 +883,10 @@ PrefabInstance:
 --- !u!4 &4000010434917808 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011227296186, guid: 74d744994bc414c37bfda957f1d57118, type: 3}
+  m_PrefabInstance: {fileID: 828294154}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &198000012125955258 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198000012944515248, guid: 74d744994bc414c37bfda957f1d57118, type: 3}
   m_PrefabInstance: {fileID: 828294154}
   m_PrefabAsset: {fileID: 0}
