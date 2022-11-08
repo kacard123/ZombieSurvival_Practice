@@ -371,6 +371,7 @@
 "Assets/01. Scripts/UIManager.cs"
 "Assets/01. Scripts/Zombie.cs"
 "Assets/01. Scripts/ZombieData.cs"
+"Assets/01. Scripts/ZombieSpawner.cs"
 -langversion:9.0
 
 /deterministic
